@@ -7,6 +7,7 @@ namespace RestManagementAPI.Models
 {
     public class GroupMasterModel
     {
+        //get and set Id
         public int Id { get; set; }
         public string GroupCode { get; set; }
         public string GroupName { get; set; }
